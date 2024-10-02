@@ -21,3 +21,6 @@ fig = go.Figure(data=go.Scatterpolar(r=r, theta=theta))
 fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 2])))
 fig.show()
 ```
+
+
+<iframe src="shader_test.html" width="100%" height="400px"></iframe>
